@@ -1,0 +1,38 @@
+#resume {
+	margin-top: 0px;
+	}
+
+a.head {
+	display: none;
+	}
+
+p.resume:first-line, p.resume1:first-line {
+	font-weight: normal;
+	font-size: 1.2em;
+	font-family: futura, georgia, san-serif;
+	line-height: 1em;
+	}
+
+p.resume {
+	white-space: pre;
+	width: 30em;
+	background-color: #fff;
+	font-family: "Lucida Grande", verdana, san-serif;
+	font-weight: normal;
+	font-size: .8em;
+	line-height: 1.1em;
+	}
+
+p.resume1 {
+	white-space: pre;
+	width: 30em;
+	background-color: #fff;
+	font-family: "Lucida Grande", verdana, san-serif;
+	font-weight: normal;
+	font-size: .8em;
+	line-height: 1.5em;
+	}
+
+a.resume {
+	display: none;
+	}

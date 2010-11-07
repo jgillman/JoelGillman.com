@@ -1,0 +1,10 @@
+title: Deeqs
+-
+company: Space150, for Dairy Queen
+-
+content: 
+Prototyped and built animations for World View.
+
+[deeqs.com](http://deeqs.com/)
+-
+keywords: Flash, Illustrator

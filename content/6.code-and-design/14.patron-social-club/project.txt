@@ -1,0 +1,11 @@
+title: Patrón Social Club
+-
+company: Reindeer Company, for Patrón Tequila
+-
+content: 
+Coded all client side HTML, CSS, and JS along with homepage flash component. Had input for site redesign from concept to production.
+
+[patronsocialclub.com](http://patronsocialclub.com/)
+-
+keywords: HTML, CSS, jQuery, Flash, ActionScript 3, PHP
+

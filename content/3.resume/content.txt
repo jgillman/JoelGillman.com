@@ -1,0 +1,91 @@
+title: Résumé
+-
+content:
+##EDUCATION
+
+Minneapolis College of Art and Design, Minneapolis, MN
+
+Bachelor of Fine Arts in Interactive Media / May 2008
+
+----------------
+
+##SELECTED EXPERIENCE
+
+**Reindeer** *New York, NY*
+
+Lead Client-Side Developer
+
+December 2008 - Present
+
+Work under tight deadlines to produce quality work for high profile clients. Take projects from wire framing and planning all the way through execution and maintenance.
+
+-----------------
+**Space150** *Minneapolis, MN*
+
+Creative Tech
+
+June 2008 - November 2008
+
+Work directly with the creative and design team to ensure client satisfaction Build out interactive flash modules to enhance user experience. Design and prototype interfaces with new features for a wide audience.
+
+------------------
+**Clockwork** *Minneapolis, MN*
+
+Junior Interactive Designer
+
+September 2007 - June 2008
+
+Collaborate with multi-disciplinary teams to develop client websites. Translate designs into original, efficent, fully-functional websites.
+
+-------------------
+**MCAD Summer Expressions Session** *Minneapolis, MN*
+
+Game Design Instructor + Resident Assistant
+
+Summers 2006, ‘07, '08, '09, ‘10
+
+Teach High School students in all aspects of game design - from conception to completion students learn about characters, settings, strategies and goals. Coordinate with teaching assistants for group projects.
+
+---------------------
+**MCAD Computer Support** *Minneapolis, MN*
+
+Help-desk Assistant
+
+December 2005 - September 2007
+
+Troubleshoot, diagnose and repair Macintosh systems. Provide individual and classroom software tutorials to faculty and students. Test beta builds for MCAD-issued laptops.
+
+-----------------------
+**Bowman Media Group** *Minneapolis, MN*
+
+Freelance Designer
+
+May 2007 - August 2007
+
+Prepare working prototypes of client websites. Interface with company director to ensure proper implementation of designs.
+
+Design Works, Minneapolis, MN / Web Designer: January 2007 Implement identity for MNfilmTV.org. Close interaction with creative director and lead programmer.
+
+---------------------
+##SKILLS
+
+Proficient in Mac OS X, Linux and Windows along with Photoshop, Illustrator, Flash, SVN, SSH and other command line tools.
+
+**Fluent Languages:** HTML (including XHTML and HTML5), CSS (2 and 3), XML, Javascript, jQuery, AJAX, ActionScript 3
+
+Familiar with PHP, MySQL, Amazon S3
+
+-------------------------
+##EXHIBITIONS AND AWARDS
+
+Minneapolis College of Art and Design Interactive Merit Scholarship: 2007
+
+David and Debra Andreas Scholarship: 2006 and 2007 Larsen Design Scholarship: 2007
+
+Personal Outer Space, MCAD Gallery 148 installation: September 2007
+
+Mush, Mush, Masculinity!, ACVR Warehouse installation: September 2007
+
+Media Arts Exhibition, MCAD Main Floor installation: May 2007
+
+_underscore, MCAD Emeritus Hall Gallery installation: June 2006

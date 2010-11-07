@@ -1,1 +1,0 @@
-<p><a href="/work/design/">design</a> <a href="/work/fineArt/">fine art</a></p>

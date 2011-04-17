@@ -11,11 +11,21 @@ Bachelor of Fine Arts in Interactive Media / May 2008
 
 ##SELECTED EXPERIENCE
 
+**Weill Cornell Medical College** *New York, NY*
+
+Web Designer / UX Developer
+
+November 2010 - Present
+
+Develop highly accessible and flexible markup for large audiences. Huge emphasis on semantic HTML and CSS along with hack-free solutions for older browsers.
+
+-----------------
+
 **Reindeer** *New York, NY*
 
 Lead Client-Side Developer
 
-December 2008 - Present
+December 2008 - November 2010
 
 Work under tight deadlines to produce quality work for high profile clients. Take projects from wire framing and planning all the way through execution and maintenance.
 
@@ -55,23 +65,12 @@ December 2005 - September 2007
 
 Troubleshoot, diagnose and repair Macintosh systems. Provide individual and classroom software tutorials to faculty and students. Test beta builds for MCAD-issued laptops.
 
------------------------
-**Bowman Media Group** *Minneapolis, MN*
-
-Freelance Designer
-
-May 2007 - August 2007
-
-Prepare working prototypes of client websites. Interface with company director to ensure proper implementation of designs.
-
-Design Works, Minneapolis, MN / Web Designer: January 2007 Implement identity for MNfilmTV.org. Close interaction with creative director and lead programmer.
-
 ---------------------
 ##SKILLS
 
 Proficient in Mac OS X, Linux and Windows along with Photoshop, Illustrator, Flash, SVN, SSH and other command line tools.
 
-**Fluent Languages:** HTML (including XHTML and HTML5), CSS (2 and 3), XML, Javascript, jQuery, AJAX, ActionScript 3
+**Fluent Languages:** HTML (including XHTML and HTML5), CSS (2 and 3), XML, Javascript, jQuery, AJAX, ActionScript 3, Apache Ant
 
 Familiar with PHP, MySQL, Amazon S3
 

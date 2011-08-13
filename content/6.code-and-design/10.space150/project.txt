@@ -1,13 +1,11 @@
 title: Space150
 -
-company: 
+company: Space150
 -
-content: 
-Built out dynamic flash home page that pulls in information from it&rsquo;s static HTML counterpart. The background video is randomly selected.
+content: Built out dynamic flash home page that pulls in information from it&rsquo;s static HTML counterpart. The background video is randomly selected.
 
 *Note: The fish does not actively follow the mouse. That is just silly.*
 
 [space150.com (version 21)](http://v21.space150.com/)
 -
 keywords: HTML, Flash, ActionScript 3, RTMP
-

@@ -7,72 +7,69 @@ Minneapolis College of Art and Design, Minneapolis, MN
 
 Bachelor of Fine Arts in Interactive Media / May 2008
 
+---------------------
+
+##SKILLS
+
+Proficient in Mac OS X, Linux and Windows along with Photoshop, Illustrator, Flash, SVN, SSH and other command line tools.
+
+**Fluent Languages:** HTML (including XHTML and HTML5), CSS (2 and 3), XML, JavaScript, jQuery, AJAX, Apache Ant
+
+Familiar with PHP, MySQL, Actionscript 3, Amazon S3 and EC2
+
 ----------------
 
 ##SELECTED EXPERIENCE
 
 **Weill Cornell Medical College** *New York, NY*
 
-Web Designer / UX Developer
+Web Designer / UX Developer *November 2010 - Present*
 
-November 2010 - Present
+Technology: HTML5, CSS3, JavaScript, jQuery, Photoshop, Illustrator
 
-Develop highly accessible and flexible markup for large audiences. Huge emphasis on semantic HTML and CSS along with hack-free solutions for older browsers.
+Develop highly accessible and flexible markup for large audiences. Huge emphasis on semantic HTML5 and CSS3 along with hack-free solutions for older browsers.
 
 -----------------
 
 **Reindeer** *New York, NY*
 
-Lead Client-Side Developer
+Lead Client-Side Developer *December 2008 - November 2010*
 
-December 2008 - November 2010
+Technology: XHTML, CSS3, JavaScript, jQuery, Photoshop, Illustrator, Flash
 
 Work under tight deadlines to produce quality work for high profile clients. Take projects from wire framing and planning all the way through execution and maintenance.
 
 -----------------
 **Space150** *Minneapolis, MN*
 
-Creative Tech
+Creative Tech *June 2008 - November 2008*
 
-June 2008 - November 2008
+Technology: XHTML, CSS, ActionScript 3, Photoshop, Illustrator, Flash
 
 Work directly with the creative and design team to ensure client satisfaction Build out interactive flash modules to enhance user experience. Design and prototype interfaces with new features for a wide audience.
 
 ------------------
 **Clockwork** *Minneapolis, MN*
 
-Junior Interactive Designer
+Technology: XHTML, CSS, ActionScript 3, Photoshop, Illustrator, Flash
 
-September 2007 - June 2008
+Junior Interactive Designer *September 2007 - June 2008*
 
 Collaborate with multi-disciplinary teams to develop client websites. Translate designs into original, efficent, fully-functional websites.
 
 -------------------
 **MCAD Summer Expressions Session** *Minneapolis, MN*
 
-Game Design Instructor + Resident Assistant
-
-Summers 2006, ‘07, '08, '09, ‘10
+Game Design Instructor + Resident Assistant *Summers ‘06, ‘07, ‘08, ‘09, ‘10*
 
 Teach High School students in all aspects of game design - from conception to completion students learn about characters, settings, strategies and goals. Coordinate with teaching assistants for group projects.
 
 ---------------------
 **MCAD Computer Support** *Minneapolis, MN*
 
-Help-desk Assistant
-
-December 2005 - September 2007
+Help-desk Assistant *December 2005 - September 2007*
 
 Troubleshoot, diagnose and repair Macintosh systems. Provide individual and classroom software tutorials to faculty and students. Test beta builds for MCAD-issued laptops.
-
----------------------
-##SKILLS
-
-Proficient in Mac OS X, Linux and Windows along with Photoshop, Illustrator, Flash, SVN, SSH and other command line tools.
-
-**Fluent Languages:** HTML (including XHTML and HTML5), CSS (2 and 3), XML, Javascript, jQuery, AJAX, ActionScript 3, Apache Ant
-
-Familiar with PHP, MySQL, Amazon S3
 
 -------------------------
 ##EXHIBITIONS AND AWARDS

@@ -8,14 +8,14 @@ em.background { color: #BBB; }
 
 /* Typography */
 
-body, input { font-family: "Helvetica", helvetica, "Helvetica Neue", arial, sans-serif; line-height: 1.3; }
+body, input { font-family: "Helvetica", helvetica, "Helvetica Neue", arial, sans-serif; }
 ul li, p, em { font-size: 13px; font-style: normal; letter-spacing: -0.01em; }
 h1, h2 { font-size: 13px; font-weight: normal; }
 a { text-decoration: none; }
 
 /* Layout */
 
-body { padding: 10px 0px 40px; text-align: center; }
+body { padding: 10px 0px 40px; }
 div#container { margin: 0px auto; width: 890px; padding: 5px 20px; text-align: left; 
 /*	background: url('/images/grid-bg.gif') 20px 0px;*/
 }

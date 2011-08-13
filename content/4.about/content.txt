@@ -1,4 +1,8 @@
 title: About
 -
 content: 
-Joel Gillman, born in Milwaukee, WI; moved to Madison, WI; attended college in Minneapolis, MN and currently resides in Manhattan, NY. Clearly he is afraid to live in a city whose name does not start with the letter *M*. Joel loves making art installations (interactive by nature), beautiful interactive programs and also loves working on film productions. In 2008 he landed an awesome BFA in Interactive Media from the Minneapolis College of Art and Design.
+Joel Gillman, born in Milwaukee, WI; moved to Madison, WI; then Minneapolis, MN and currently resides in Manhattan, NY. Clearly he is afraid to live in a city that does not start with **M**.
+
+In 2008 he landed an awesome BFA in Interactive Media from the Minneapolis College of Art and Design. Promptly starting as a nerdy designer gave him unique perspective when he surrendered to front-end/UI development.
+
+Pragmatic, personable and facetious, he is a delight to work with *(if I may be so bold)*.

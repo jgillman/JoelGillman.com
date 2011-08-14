@@ -2,11 +2,10 @@ title: SkyWeaver (.com)
 -
 company: SkyWeaver
 -
-content: 
-Worked with client to design site from concept to production.
-Created new logo based on existing bird drawings.
+content: Worked with client to design site from concept to production.
+Created new logo based on existing drawings.
 Created all client side HTML, CSS, and JavaScript for speed and accessibility.
 
 [skyweaver.com](http://www.skyweaver.com/)
 -
-keywords: HTML, CSS, jQuery
+keywords: HTML5, CSS3, JavaScript, jQuery, Photoshop

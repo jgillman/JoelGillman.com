@@ -1,9 +1,8 @@
 title: Reindeer Company Site
 -
-company: 
+company: Reindeer Company
 -
-content: 
-Designed and built in 24 hours. Simple Google Map integration.
+content: Designed and built in 24 hours. Simple Google Map integration.
 
 [reindeercompany.com](http://reindeercompany.com/)
 -

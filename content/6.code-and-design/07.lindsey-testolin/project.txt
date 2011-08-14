@@ -2,10 +2,8 @@ title: Lindsey Testolin (.com)
 -
 company: Freelance
 -
-content: 
-Online artist&rsquo;s portfolio designed to showcase the artist&rsquo;s work.
+content: Online artist&rsquo;s portfolio designed to showcase the artist&rsquo;s work.
 
 [lindseytestolin.com](http://lindseytestolin.com/)
 -
 keywords: HTML, CSS, Stacey CMS, Photoshop
-

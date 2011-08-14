@@ -99,7 +99,7 @@ sub { bottom: -0.25em; }
    Lists
    ========================================================================== */
 
-ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+ul, ol { margin: 0; padding: 0; list-style: none; }
 dd { margin: 0 0 0 40px; }
 nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
 
@@ -209,10 +209,163 @@ td { vertical-align: top; }
 
 
 /* ==|== primary styles =====================================================
-   Author:
+   Author: Joel Gillman
    ========================================================================== */
 
+body {
+	margin: 20px 0 20px;
+	font: normal 100% "Helvectica Neue", Helvetica, Arial, sans-serif;
+}
+#container {
+	font-size: 0.8125em; /* 13px / 16px */
+	line-height: 1.230769231em; /* 16px / 13px */
+	margin: 0px auto;
+	width: 890px;
+	padding: 5px 20px;
+}
+em {
+	font-style: normal;
+	color: rgb(150,150,150);
+}
+h1, h2, h3 {
+	font-size: 1em;
+	font-weight: normal;
+	margin: 0;
+}
+a, a:visited {
+	color: rgb(100,100,100);
+	text-decoration: none;
+	border-bottom: 1px solid rgb(200,200,200);
+}
+h1 a, h2 a,
+h1 a:visited,
+h2 a:visited {
+	color: rgb(0,0,0);
+}
+h1 span, h2 span {
+	color: rgb(150,150,150);
+}
 
+header.main {
+	margin-bottom: 30px;
+}
+header.main h1,
+header.main h2 {
+	float: left;
+	margin-left: 20px;
+	width: 140px;
+}
+header.main h1 span,
+header.main h2 span {
+	display: block;
+}
+.page-links {
+	float: left;
+	margin-left: 20px;
+	width: 460px;
+}
+.page-links a {
+	margin-left: 10px;
+}
+
+
+
+#content {
+	 margin-left: 20px;
+}
+
+header.title,
+.ornament {
+	float: left;
+	padding-top: 20px;
+	width: 140px;
+	border-top: 1px solid rgb(200,200,200);
+}
+header.title h1 a {
+	color: rgb(150,150,150);
+}
+
+article {
+	float: left;
+	margin-left: 20px;
+	padding-top: 20px;
+	width: 460px;
+	border-top: 1px solid rgb(200,200,200);
+}
+article h1 {
+	display: inline;
+	border-bottom: 1px solid rgb(200,200,200);
+}
+
+
+
+.projects {
+	float: left;
+	margin-left: 20px;
+	width: 640px;
+}
+.project {
+	float: left;
+	margin: 0 20px -1px 0;
+	padding: 20px 0;
+	width: 300px;
+	border-top: 1px solid rgb(200,200,200);
+	border-bottom: 1px solid rgb(200,200,200);
+}
+.project img {
+	float: left;
+	margin-right: 20px;
+}
+.project a {
+	color: rgb(0,0,0);
+}
+.project span {
+	display: block;
+	margin-top: 5px;
+}
+.company {
+	color: rgb(150,150,150);
+}
+.technology {
+	color: rgb(190,190,190);
+}
+
+
+
+
+.media {
+	float: left;
+	width: 540px;
+	padding-top: 20px;
+	border-top: 1px solid rgb(200,200,200);
+}
+.media video, .media img{
+	margin: 0 0 18px 0;
+}
+.description {
+	float: left;
+	margin-left: 20px;
+	width: 220px;
+	padding-top: 20px;
+	border-top: 1px solid rgb(200,200,200);
+}
+.description header,
+.description span,
+.description p {
+	display: block;
+	margin: 0 0 5px 0;
+}
+.description h1 {
+	display: inline;
+	border-bottom: 1px solid rgb(200,200,200);
+}
+
+
+
+footer {
+	text-align: center;
+	margin-top: 30px;
+}
 
 
 

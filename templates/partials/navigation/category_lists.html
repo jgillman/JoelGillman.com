@@ -1,19 +1,17 @@
 foreach $root do
-  if $children do
-    <p class="category col two"><a href="@url"><em>@title</em></a></p>
-    <ul class="project-list col seven">
-    foreach $children do
-    	<li>
-    		<div class="thumbnail col two">
-    			<a href="@url"><img src="@thumb" alt=""></a>
-    		</div>
-    		<div class="summary col two">
-    			<p><a href="@url">@title</a></p>
-    			<p><em>@company</em></p>
-    			<p><em class="background">&ndash; @keywords</em></p>
-    		</div>
-    	</li>
-    endforeach
-    </ul>
-  endif
+	if $children do
+	<header>
+		<h1><a href="@url">@title</a></h1>
+	</header>
+	<ul class="projects">
+	foreach $children do
+		<li class="project">
+			<a href="@url"><img class="thumbnail" src="@thumb"></a>
+			<a href="@url" class="title">@title</a>
+			<span class="company">@company</span>
+			<span class="technology">◰ @keywords</span>
+		</li>
+	endforeach
+	</ul>
+	endif
 endforeach

@@ -6,29 +6,33 @@
 
 :head_comment
 
-	<head>
-		<title>@title, @name's Portfolio</title>
+<head>
+	<title>@title, @name's Portfolio</title>
 :head
-	</head>
-	<body>
-		<div id="container">
+</head>
+<body>
+	<div id="container">
 :main_nav
-			<div id="content" role="main">
+		<section id="content" role="main">
+			<div class="media">
 				:media
 			</div>
-			<div class="description col three">
-				<p><a href="@root_path/">@title</a></p>
-				<p><em>@company</em></p>
-				<p><em class="background">&ndash; @keywords</em></p>
+			<div class="description">
+				<header>
+					<h1>@title</h1>
+				</header>
+				<span class="company">@company</span>
+				<span class="technology">◰ @keywords</span>
 				@content
 			</div>
-			
-:footer
-			
-		</div>
+		</section>
 		
+:footer
+		
+	</div>
+	
 :ie6_message
 
 :google_analytics
-	</body>
+</body>
 </html>

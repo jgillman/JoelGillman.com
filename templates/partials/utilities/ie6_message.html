@@ -1,6 +1,6 @@
-<!--[if lt IE 7]>
-	<div id="ie6Warning" style="width:100%;height:1000px;background:#ccc;position:absolute;top:0px;left:0px;font-size:14px;padding:20px">
-		<h2>Time to upgrade your browser</h2>
-		<p style="font-size:14px;line-height:20px;">If you're reading this, you're surfing using Internet Explorer 6, an eight-year-old browser that cannot cope with the demands of the modern internet. For the best web experience, I strongly recommend upgrading to <a href="http://www.getfirefox.com/" style="font-size:14px;line-height:20px;">Firefox</a>, <a href="http://www.opera.com/" style="font-size:14px;line-height:20px;">Opera</a>, <a href="http://www.apple.com/safari/" style="font-size:14px;line-height:20px;">Safari</a>, <a href="http://www.google.com/chrome" style="font-size:14px;line-height:20px;">Google Chrome</a>, or a more recent version of <a href="http://www.microsoft.com/windows/downloads/ie/getitnow.mspx" style="font-size:14px;line-height:20px;">Internet Explorer</a>.</p>
-	</div>
+<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+     chromium.org/developers/how-tos/chrome-frame-getting-started -->
+<!--[if lt IE 7 ]>
+  <script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+  <script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
 <![endif]-->

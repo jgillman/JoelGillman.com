@@ -333,7 +333,9 @@ article img {
 .technology {
 	color: rgb(190,190,190);
 }
-
+.technology p {
+	display: inline;
+}
 
 
 
@@ -453,7 +455,7 @@ footer {
 		margin: 10px 0 0 0;
 		width: 100%;
 	}
-	
+
 	article {
 		width: 80.4597701%; /* 700 / 870 */
 	}

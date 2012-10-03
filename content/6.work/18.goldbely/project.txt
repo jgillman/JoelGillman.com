@@ -1,0 +1,15 @@
+title: Goldbely.com Preview
+-
+company: Goldbely
+-
+keywords: HTML5, CSS3, JavaScript, jQuery
+-
+content: Worked with Goldbely's talented co-founder, [Vanessa Torrivilla](http://www.imabadidea.com/), on an interactive experience designed to give users an sneak peek at the upcoming site.
+
+Goldbely is a curated marketplace of outlandishly delicious, incredible, edible gourmet gifts.
+
+For this project I used [@Prinzhorn](http://twitter.com/Prinzhorn)'s parallax scrolling library [Skrollr](//github.com/Prinzhorn/skrollr). (It's great!)
+
+Art and design by [Vanessa Torrivilla](http://www.imabadidea.com/)
+
+[goldbely.com](http://www.goldbely.com/)

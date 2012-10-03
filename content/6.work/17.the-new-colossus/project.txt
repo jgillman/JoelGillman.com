@@ -5,7 +5,7 @@ company: Nextbook Press, with Joshua Hester
 content: An interactive version of Emma Lazarus's "The New Colossus", which appears on the base of 
 the Statue of Liberty.
 
-The annotations are written by Esther Schor, author of the biography, *Emma Lazarus*. Designd by the wonderful [Joshua Hester](http://joshuahester.com/) with art direction from [Len Small](http://www.lensmalldesign.com/) of Nextbook Press.
+The annotations are written by Esther Schor, author of the biography, *Emma Lazarus*. Designed by the wonderful [Joshua Hester](http://joshuahester.com/) with art direction from [Len Small](http://www.lensmalldesign.com/) of Nextbook Press.
 
 All JavaScript and jQuery is of my own creation unless otherwise noted with alterations to the HTML and CSS.
 

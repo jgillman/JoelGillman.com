@@ -12,4 +12,4 @@ For this project I used [@Prinzhorn](http://twitter.com/Prinzhorn)'s parallax sc
 
 Art and design by [Vanessa Torrivilla](http://www.imabadidea.com/)
 
-[goldbely.com](http://www.goldbely.com/)
+The beautiful main site is now live, but you can still see the landing page here: [goldbely.com/landing](http://www.goldbely.com/landing)

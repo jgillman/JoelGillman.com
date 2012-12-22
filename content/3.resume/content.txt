@@ -14,21 +14,29 @@ Bachelor of Fine Arts in Interactive Media / May 2008
 Proficient in Mac OS X, Linux and Windows along with Photoshop, Illustrator,
 Git, SSH, Vim and other command line tools.
 
-**Fluent Languages:** HTML (XHTML and HTML 5), CSS (2 and 3), XML, JavaScript,
-jQuery, Ajax, Apache Ant
+**Fluent Languages:** HTML, CSS, OOCSS, Sass, XML, JavaScript, jQuery, Ajax,
+Apache Ant
 
-Familiar with Ruby, PHP, MySQL, Actionscript 3, Amazon S3 and EC2
+Familiar with Ruby, Rails, PHP, MySQL, ActionScript 3, Amazon S3 and EC2
 
 ----------------
 
 #SELECTED EXPERIENCE
 
+Does not include freelance work.
+
 ##Blip
 *New York, NY*
 
-Front End Developer *September 2011 - Present*
+Front End Developer *September 2011 - January 2012*
 
-Technology: HTML5, CSS3, JavaScript, jQuery, Photoshop
+Technology: HTML5, Object Oriented Sass (OOSass/OOCSS), JavaScript, jQuery
+
+Worked on both the user and producer facing products which delivered original
+web series to millions of users. Extensively used object oriented CSS (via
+Sass) to manage and abstract a large number of site modules. Used JavaScript
+and jQuery to manage user states and information in a manner most efficient for
+site speed.
 
 -----------------
 

@@ -1,0 +1,7 @@
+title: &#9729; SoundCloud: Disable Comments Bookmarklet
+-
+company:
+-
+content: Updated for the new SoundCloud site! I've never liked how intrusive the comments are on SoundCloud so I've made this simple bookmarklet to easily turn comments off after you've opened SoundCloud.
+-
+keywords: Javascript, jQuery

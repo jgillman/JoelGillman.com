@@ -12,18 +12,41 @@ Bachelor of Fine Arts in Interactive Media / May 2008
 #SKILLS
 
 Proficient in Mac OS X, Linux and Windows along with Photoshop, Illustrator,
-Git, SSH, Vim and other command line tools.
+Git, SSH, Vim and other command line tools. Lots of experience securing and
+managing Ubuntu and Debian servers.
 
-**Fluent Languages:** HTML, CSS, OOCSS, Sass, XML, JavaScript, jQuery, Ajax,
-Apache Ant
+**Fluent Languages:** JavaScript (and common libraries), HTML, CSS, BEM, Sass,
+XML
 
-Familiar with Ruby, Rails, PHP, MySQL, ActionScript 3, Amazon S3 and EC2
+Familiar with Node, Ruby, Rails, MySQL, Postgres, AWS Suite (e.g. Cloudfront,
+S3, EC2), PHP, Perl
 
 ----------------
 
 #SELECTED EXPERIENCE
 
 Does not include freelance work.
+
+## Goldbely
+*New York, NY and San Francisco, CA*
+
+Co-founder and Developer *January 2012 - Present*
+
+Technology: JavaScript, BEM-style CSS (via Sass), HTML (via Haml), Ruby, Node
+
+After working with [Vanessa][imabadidea-site] at Blip and loving it, she tore
+me away to help co-found [Goldbely.com][] so we could find the best food across
+the country and deliver it to everyone.
+
+Over the first year I completely rewrote 90%+ of the front end code and
+JavaScript.  As a co-founder I've done a bit of everything and worn nearly
+every hat. From managing user accounts on servers, to running social media
+campaigns, optimising SEO, fund raising a seed round, and so on.
+
+[imabadidea-site]: http://imabadidea.com/
+[goldbely.com]: https://www.goldbely.com
+
+-----------------
 
 ##Blip
 *New York, NY*

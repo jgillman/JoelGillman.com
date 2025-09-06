@@ -1,0 +1,14 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+  {{ .Content }}
+  {{ partial "date.html" .Date}}
+
+  {{ if not .IsHome }}
+    <div class="terminal-nav">
+      <div class="back-nav">
+        <a href="../" class="back-link">../</a>
+      </div>
+    </div>
+  {{ end }}
+{{ end }}

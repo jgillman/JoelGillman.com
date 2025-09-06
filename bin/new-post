@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+# Script to create a new Hugo post with date prefix
+# Usage: new-post "post title"
+
+set -e
+
+if [ $# -ne 1 ]; then
+    echo "Usage: $0 \"post title\""
+    echo "Example: $0 \"my blog update\""
+    exit 1
+fi
+
+# Get the post title from the argument
+post_title="$1"
+
+# Get current date in YYYY-MM-DD format
+current_date=$(date +%Y-%m-%d)
+
+# Convert title to slug format (lowercase, replace spaces with hyphens, remove special chars)
+slug=$(echo "$post_title" | tr '[:upper:]' '[:lower:]' | tr -s ' ' | tr ' ' '-' | sed 's/[^a-z0-9-]//g' | sed 's/^-\+\|-\+$//g')
+
+# Create filename with date prefix
+filename="${current_date}-${slug}.md"
+
+# Run hugo new content command
+hugo new content "posts/${filename}"
+
+echo "✅ New post created successfully!"
+echo "📝 Edit your post: $filename"

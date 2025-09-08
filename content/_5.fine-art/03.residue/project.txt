@@ -1,8 +1,0 @@
-title: Residue
--
-company: 2007
--
-content: 
-Residue explores the hostile nature of web-space communities.
--
-keywords: wood, wire, LCD screen, ActionScript 2

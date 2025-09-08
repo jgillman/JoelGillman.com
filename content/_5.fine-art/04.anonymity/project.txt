@@ -1,8 +1,0 @@
-title: Anonymity
--
-company: 2008
--
-content: 
-This simple relationship serves as a template and starting point to deconstruct seemingly complex systems.
--
-keywords: Pink Foamular, ActionScript 2

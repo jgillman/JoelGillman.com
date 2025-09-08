@@ -1,0 +1,15 @@
+{{- with slice
+  (resources.Get "css/main.css")
+  (resources.Get "css/syntax.css")
+  (resources.Get "css/custom.css")
+-}}
+  {{- if hugo.IsDevelopment -}}
+    {{- range . -}}
+<link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{- end -}}
+  {{- else -}}
+    {{- with . | resources.Concat "css/bundle.css" | minify | fingerprint -}}
+<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

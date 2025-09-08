@@ -1,0 +1,22 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  {{ $toolsPosts := where site.RegularPages "Params.tags" "intersect" (slice "tools") }}
+  {{ $latestToolsPost := first 1 (sort $toolsPosts "Date" "desc") }}
+
+  {{ range $latestToolsPost }}
+  <p class="text-muted"><em>(Last updated: {{ .Date.Format "Jan 2006" }})</em></p>
+  <hr class="double">
+  <link rel="canonical" href="{{ .RelPermalink }}">
+  <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+  {{ .Content }}
+  {{ end }}
+
+  <div class="terminal-nav">
+    {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+    <div class="back-nav">
+      <a href="../" class="back-link">../</a>
+    </div>
+  </div>
+{{ end }}

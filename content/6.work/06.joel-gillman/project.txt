@@ -1,9 +1,0 @@
-title: Joel Gillman (.com)
--
-company: Personal Portfolio
--
-content: Older version of my online portfolio.
-
-[v2.joelgillman.com.com](http://v2.joelgillman.com/)
--
-keywords: HTML, CSS, Prototype / Scriptaculous, Photoshop, Flash, ActionScript 3

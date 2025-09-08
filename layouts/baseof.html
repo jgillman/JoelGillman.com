@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <header>
+{{- if and hugo.IsDevelopment false -}}
+  <pre>
+Kind: {{ .Kind }}
+Type: {{ .Type }}
+  </pre>
+{{- end -}}
+    {{- partial "header.html" . -}}
+  </header>
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer>
+    {{ partial "footer.html" . }}
+  </footer>
+</body>
+</html>

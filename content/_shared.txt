@@ -1,6 +1,0 @@
-name: Joel Gillman
--
-profession: Developer + Designer
--
-email: 
-<joel@joelgillman.com>

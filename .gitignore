@@ -1,4 +1,10 @@
-.DS_Store
-app/_cache/*
-!app/_cache/.gitignore
-logs
+# Hugo generated files
+public/
+resources/_gen/
+.hugo_build.lock
+
+# temp
+content/art/
+content/projects/
+static/favicon.ico
+static/favicon_io

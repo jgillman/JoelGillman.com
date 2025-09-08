@@ -1,0 +1,28 @@
+{{ define "main" }}
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    <div class="project-list">
+        <ul>
+            {{- range .Pages }}
+            <li>
+                <a href="{{ .RelPermalink }}">
+                    {{- with $image := .Resources.GetMatch "thumb.*" }}
+                    <img class="thumb" src="{{ .RelPermalink }}" width="140" height="140">
+                    {{- end }}
+                    <div>
+                        <p class="project-title">{{ .LinkTitle }}</p>
+                        <p class="project-owner">
+                            for {{ partial "to_sentence.html" (slice .Params.client .Params.company) }}
+                            <br>
+                            <span class="project-tech">using {{ delimit (sort .Params.keywords) ", " }}</span>
+                        </p>
+                    </div>
+                </a>
+            </li>
+            {{- end }}
+        </ul>
+    </div>
+    <div class="terminal-nav">
+      {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+    </div>
+{{ end }}

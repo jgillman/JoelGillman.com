@@ -1,0 +1,71 @@
+baseURL: 'https://www.joelgillman.com/'
+languageCode: 'en-us'
+title: 'Joel Gillman'
+
+params:
+  author: 'Joel Gillman'
+  email: 'joel@joelgillman.com'
+
+menu:
+  main:
+    - name: 'About'
+      url: '/about/'
+    - name: 'Work'
+      url: '/work/'
+    - name: 'Tools'
+      url: '/tools/'
+    - name: 'Posts'
+      url: '/posts/'
+
+security:
+  enableInlineShortcodes: true
+
+enableEmoji: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    style: dracula
+    tabWidth: 2
+
+permalinks:
+  posts: /posts/:year-:month-:day-:slug/
+
+taxonomies:
+  tag: tags
+
+frontmatter:
+  date: ['date', 'publishDate', 'lastmod']
+  expiryDate: ['expiryDate']
+  lastmod: [':git', 'lastmod', 'date', 'publishDate']
+  publishDate: ['publishDate', 'date']
+
+related:
+  includeNewer: true
+  indices:
+  - applyFilter: false
+    cardinalityThreshold: 0
+    name: keywords
+    pattern: ""
+    toLower: true
+    type: basic
+    weight: 100
+  - applyFilter: false
+    cardinalityThreshold: 0
+    name: date
+    pattern: ""
+    toLower: false
+    type: basic
+    weight: 10
+  - applyFilter: false
+    cardinalityThreshold: 0
+    name: tags
+    pattern: ""
+    toLower: true
+    type: basic
+    weight: 80
+  threshold: 80
+  toLower: true

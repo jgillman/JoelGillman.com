@@ -1,0 +1,17 @@
+{{ $s := slice }}
+{{ $result := "" }}
+
+{{/* Rebuild the array excluding falsey values */}}
+{{ range . }}
+  {{ with . }}
+    {{ $s = $s | append . }}
+  {{ end }}
+{{ end }}
+
+{{/* Oxford comma or gtfo */}}
+{{ if gt ($s | len) 2 }}
+  {{ $result = delimit $s ", " ", and " }}
+{{ else }}
+  {{ $result = delimit $s " and " }}
+{{ end }}
+{{ return $result }}

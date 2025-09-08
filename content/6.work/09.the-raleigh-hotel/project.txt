@@ -1,9 +1,0 @@
-title: Raleigh Hotel
--
-company: Space150, for The Raleigh Hotel
--
-content: Enhanced site with dynamic, reusable flash modules &ndash; quote scroller and image slideshow.
-
-[raleighhotel.com](http://raleighhotel.com/)
--
-keywords: Flash, ActionScript 3

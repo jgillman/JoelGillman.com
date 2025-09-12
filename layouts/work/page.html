@@ -1,11 +1,12 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
-  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
   {{ .Content }}
 
   {{- range .Resources.Match "gallery-*.{jpg,jpeg,png,gif,webp}" }}
   <p><img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt=""></p>
   {{- end }}
+
+  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
 
   <div class="terminal-nav">
   {{ partial "menu.html" (dict "menuID" "main" "page" .) }}

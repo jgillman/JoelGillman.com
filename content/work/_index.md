@@ -1,6 +1,5 @@
 ---
 date: "2025-08-08"
-draft: true
 title: Work
 ---
 

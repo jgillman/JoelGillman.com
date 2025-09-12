@@ -3,6 +3,7 @@
   {{ .Content }}
 
   {{ $toolsPosts := where site.RegularPages "Params.tags" "intersect" (slice "tools") }}
+  {{ $toolsPosts = where $toolsPosts "Params.draft" "ne" true }}
   {{ $latestToolsPost := first 1 (sort $toolsPosts "Date" "desc") }}
 
   {{ range $latestToolsPost }}

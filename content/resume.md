@@ -1,6 +1,5 @@
 ---
 date: "2025-08-02T10:20:19-05:00"
-draft: true
 title: Résumé
 ---
 

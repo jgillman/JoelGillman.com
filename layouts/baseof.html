@@ -5,7 +5,7 @@
 </head>
 <body>
   <header>
-{{- if and hugo.IsDevelopment false -}}
+{{- if and hugo.IsDevelopment .Site.BuildDrafts -}}
   <pre>
 Kind: {{ .Kind }}
 Type: {{ .Type }}

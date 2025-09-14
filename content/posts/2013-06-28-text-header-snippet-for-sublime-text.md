@@ -23,7 +23,7 @@ I was just playing around with snippets in Sublime Text for the first time (desp
 
 Just type `thead` and hit tab and you'll be presented with:
 
-```text
+```
 #########
 # header
 #########
@@ -31,7 +31,7 @@ Just type `thead` and hit tab and you'll be presented with:
 
 Not super special yet, but while `header` is still highlighted try typing in your text header and it auto-magically expands to the right width. I'm sure someone could add to it to make it accept hard returns as well!
 
-```text
+```
 #########################
 # always one step ahead!
 #########################

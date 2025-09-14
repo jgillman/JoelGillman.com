@@ -1,8 +1,9 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
-  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
   {{ .Content }}
 
+  <hr>
+  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
 {{ with site.RegularPages.Related . | first 5 }}
   <hr class="double">
   <p>Algorithmically determined to be related posts:</p>
@@ -13,8 +14,18 @@
   </ul>
 {{ end }}
   <div class="terminal-nav">
+    <div class="posts-nav">
+			{{ $pages := .CurrentSection.Pages }}
+			{{ with $pages.Prev . }}
+				<a href="{{ .RelPermalink }}" class="posts-link-prev">← Previous Post</a>
+			{{ end }}
+
+			{{ with $pages.Next . }}
+				<a href="{{ .RelPermalink }}" class="posts-link-next">Next Post →</a>
+			{{ end }}
+    </div>
     <div class="back-nav">
-      <a href="../" class="back-link">../</a>
+      <a href="../" title="back" class="back-link">../</a>
     </div>
   </div>
 {{ end }}

@@ -38,7 +38,7 @@ the basics.
 This is the originally way I did it. It worked, but it was slower and took just
 over 5 minutes to compile.
 
-```sh
+```
 cd ~/Code
 git clone git@github.com:Inventory-Tweaks/inventory-tweaks.git
 cd inventory-tweaks
@@ -70,7 +70,7 @@ container and defaults to the `build` command.
 
 Dockerfile:
 
-```
+```dockerfile
 FROM qlik/gradle
 
 ADD . /app
@@ -80,13 +80,13 @@ CMD ["build"]
 Assuming I'm still in the project folder I can build a new image for gradle
 with the settings I've added in the Dockerfile.
 
-```sh
+```
 docker build -t mc-inventory .
 ```
 
 Finally, I re-run `docker run` this time tweaked and new options.
 
-```sh
+```
 docker run --rm -v ~/Downloads/inventory-tweaks:/app/build/libs mc-inventory
 ```
 

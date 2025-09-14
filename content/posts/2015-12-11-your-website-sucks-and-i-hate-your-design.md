@@ -1,6 +1,7 @@
 ---
 date: "2015-12-11"
-tags: []
+tags:
+- feedback
 title: Your website sucks and I hate your design!
 ---
 

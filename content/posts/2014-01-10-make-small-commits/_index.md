@@ -3,6 +3,7 @@ date: "2014-01-10"
 tags:
 - git
 title: Make Small Commits
+kind: page
 ---
 
 As a general rule of thumb, when you write code you want to keep it modular,
@@ -16,9 +17,11 @@ Do not open a feature branch, do several hours of work, then commit one giant
 commit. Doing so is a great way to make messy merge commits and blow away a lot
 of work (either yours or your coworkers).
 
-{% image post {{page.path|filename}}/big-commits.png %}
-
-_I swear this is a real commit. Name and avatar changed to protect the semi-innocent._
+{{< figure
+  src="big-commits.png"
+  alt="A screenshot of a git commit with the message '* shit load of changes, biggest commit ever, haha' and the author name blurred out"
+  caption="I swear this is a real commit. Name and avatar changed to protect the semi-innocent."
+>}}
 
 Make small commits that contain changes that make sense to go together. Commit
 logs become more digestible and you think of your changes as a series of

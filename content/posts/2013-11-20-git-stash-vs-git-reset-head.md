@@ -40,13 +40,13 @@ Print the last commit:
 ```
 
 Take the 2nd argument (1st argument is the commit hash), and force it to lower
-case
+case:
 
 ```bash
 awk '{print tolower($2)}'
 ```
 
-Take that and take out anything that isn't a letter
+Take that and take out anything that isn't a letter:
 
 ```bash
 awk '{gsub(/[^a-z]/, ""); print}'

@@ -9,7 +9,7 @@ title: '&nbsp; What Non-Breaking Spaces Are For'
 
 
 As a web developer I've always been familiar with non-breaking spaces or
-`&nbsp;.  I'm most familiar with them from dopey CMSs. They'll ingest a user's
+`&nbsp;`.  I'm most familiar with them from dopey CMSs. They'll ingest a user's
 content and spit it back out with awful markup and littered with `&nbsp;`
 everywhere. You sometimes also see them used several in succession to indent a
 line of content as below.

@@ -9,7 +9,7 @@ title: Use mitmproxy to Unminify Your Requests
 ---
 
 Sometimes, when hunting bugs in production, I don't want all of the minified
-resources. All my CSS and JS is minified and, while efficent, isn't very
+resources. All my CSS and JS is minified and, while efficient, isn't very
 friendly for debugging.
 
 ## Enter mitmproxy
@@ -29,7 +29,7 @@ mitmproxy --replace ":~q ~u \\.min\\.(js|css):\\.min:"
 
 In short, it tells mitmproxy to start up and find all incoming requests (`~q`)
 that match the regex `\.min\.(js|css)` in the URL (`~u`). Then in those
-reqeusts that finds it will replace `\.min` with 'nothing'.
+requests that finds it will replace `\.min` with 'nothing'.
 
 The semi-cryptic documentation on 'replace' can be [found in their
 documentation][2].

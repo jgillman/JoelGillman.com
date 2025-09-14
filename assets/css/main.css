@@ -276,6 +276,16 @@ p > code ::selection {
   text-decoration: none;
 }
 
+.posts-nav {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: var(--gap-base);
+}
+
+.posts-link-next {
+  justify-self: right;
+}
+
 /* Time list */
 .time-list ul {
   list-style: none;

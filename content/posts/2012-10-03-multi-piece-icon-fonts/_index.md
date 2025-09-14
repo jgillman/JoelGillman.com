@@ -5,6 +5,7 @@ tags:
 - fontface
 - icon
 title: Multi-piece icon fonts
+kind: page
 ---
 
 ## Background:
@@ -18,7 +19,7 @@ opinion, are:
 ## The Problem:
 Many of our icons utilize multiple colors for different parts.
 
-{% image post {{page.path|filename}}/01.png %}
+![Screen shot of a UI element with an overlaid "play" icon consisting of three parts, an outline, a semi-opaque fill, and a "play" glyph in the center.](icon-breakdown.png)
 
 *This image is a bad example because it's all white and you can't actually see
 the 30% transparent black.*
@@ -27,7 +28,7 @@ the 30% transparent black.*
 I'm using the program [Glyphs](http://glyphsapp.com/) to build our icon font.
 It's alright, but not without quirks. I'm still undecided whether these
 "quirks" are part of the application or that
-[I have no idea what I'm doing](http://i0.kym-cdn.com/photos/images/original/000/234/765/b7e.jpg).
+[I have no idea what I'm doing](i-have-no-idea-what-im-doing-dog.jpg).
 
 ### Zero-width characters
 My first idea was to use "zero-width" characters. Setting some of the
@@ -77,14 +78,11 @@ part it would appear that the rendering issues I encountered are fixed! I still
 have more testing to do and will make updates here if/when they change.
 
 ### Normal
-{% jsfiddle pEWUn result,html,css %}
+{{< jsfiddle user=jgillman id=pEWUn tabs=result,html,css >}}
 
 ### Zero Width
-{% jsfiddle 3PFtp result,html,css %}
+{{< jsfiddle user=jgillman id=3PFtp tabs=result,html,css >}}
 
 ### Negative Kerning
 *Note the `text-rendering: optimizeLegibility;`.*
-{% jsfiddle ZJx9A result,html,css %}
-
-[Download .glyph files](http://cl.ly/1i1J2h471M0y/download/multi-piece-icon-font.zip)
-to see exactly how the zero-width and kerning works.
+{{< jsfiddle user=jgillman id=ZJx9A tabs=result,html,css >}}

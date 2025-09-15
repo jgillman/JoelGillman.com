@@ -5,7 +5,6 @@ tags:
 - fontface
 - icon
 title: Multi-piece icon fonts
-kind: page
 ---
 
 ## Background:

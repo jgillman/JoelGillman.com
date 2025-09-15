@@ -3,7 +3,6 @@ date: "2014-01-10"
 tags:
 - git
 title: Make Small Commits
-kind: page
 ---
 
 As a general rule of thumb, when you write code you want to keep it modular,

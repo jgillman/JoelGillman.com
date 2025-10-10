@@ -1,7 +1,7 @@
 /* Generated using: hugo gen chromastyles --style=dracula */
 
 /* Background */ .bg { color:#f8f8f2;background-color:#282a36; }
-/* PreWrapper */ .chroma { color:#f8f8f2;background-color:#282a36; }
+/* PreWrapper */ .chroma, .chroma span { color:#f8f8f2;background-color:#282a36; }
 /* Other */ .chroma .x {  }
 /* Error */ .chroma .err {  }
 /* CodeLine */ .chroma .cl {  }

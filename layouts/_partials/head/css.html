@@ -1,7 +1,6 @@
 {{- with slice
   (resources.Get "css/main.css")
   (resources.Get "css/syntax.css")
-  (resources.Get "css/custom.css")
 -}}
   {{- if hugo.IsDevelopment -}}
     {{- range . -}}

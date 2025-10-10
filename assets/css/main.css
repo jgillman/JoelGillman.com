@@ -1,4 +1,4 @@
-:root {
+body {
   /* Typography */
   --spacing-base: 1.5em;
   --font-family-mono: monospace;
@@ -28,6 +28,41 @@
 
   /* Breakpoints */
   --breakpoint-mobile: 600px;
+}
+
+/* Dark mode colors */
+body.dark-theme {
+  --color-bg-primary: #1a1a1a;
+  --color-bg-secondary: #2d2d2d;
+  --color-border: #404040;
+  --color-text-primary: #e8e8e8;
+  --color-text-muted: #a0a0a0;
+  --color-selection-bg: #404040;
+  --color-selection-code-bg: #4a4a4a;
+}
+
+/* Styles for users who prefer dark mode at the OS level */
+@media (prefers-color-scheme: dark) {
+  /* defaults to dark theme */
+  body {
+    --color-bg-primary: #1a1a1a;
+    --color-bg-secondary: #2d2d2d;
+    --color-border: #404040;
+    --color-text-primary: #e8e8e8;
+    --color-text-muted: #a0a0a0;
+    --color-selection-bg: #404040;
+    --color-selection-code-bg: #4a4a4a;
+  }
+  /* Override dark mode with light mode styles if the user decides to swap */
+  body.light-theme {
+    --color-bg-primary: #f6eee3;
+    --color-bg-secondary: #eee7d7;
+    --color-border: #e5decf;
+    --color-text-primary: #000;
+    --color-text-muted: #888;
+    --color-selection-bg: #e5decf;
+    --color-selection-code-bg: #e0c9a6;
+  }
 }
 
 /* Common component styles */
@@ -63,7 +98,7 @@
   margin: 0;
   padding: 0;
   font: inherit;
-  color: inherit;
+  color: var(--color-text-primary);
   box-sizing: border-box;
 }
 
@@ -236,7 +271,7 @@ p > code ::selection {
 .path-nav li {
   display: flex;
   align-items: center;
-  color: #888;
+  color: var(--color-text-muted);
   flex-shrink: 0;
   max-width: 200px; /* Limit maximum width on small screens */
 }
@@ -255,7 +290,7 @@ p > code ::selection {
 }
 
 .path-nav li.current a {
-  color: #000;
+  color: var(--color-text-primary);
 }
 
 .path-nav a:hover {
@@ -267,12 +302,12 @@ p > code ::selection {
 }
 
 .back-link {
-  color: #888;
+  color: var(--color-text-muted);
   border-bottom: none;
 }
 
 .back-link:hover {
-  color: #000;
+  color: var(--color-text-primary);
   text-decoration: none;
 }
 

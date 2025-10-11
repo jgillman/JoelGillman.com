@@ -5,13 +5,6 @@
 </head>
 <body>
   <header>
-{{- if and hugo.IsDevelopment .Site.BuildDrafts -}}
-  <pre>
-Kind: {{ .Kind }}
-Type: {{ .Type }}
-  </pre>
-  <button class="btn-toggle">Toggle Dark-Mode</button>
-{{- end -}}
     {{- partial "header.html" . -}}
   </header>
   <main>

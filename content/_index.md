@@ -1,5 +1,5 @@
 ---
-title: Welcome
+title: '~'
 ---
 
 # Hey there! I'm Joel.

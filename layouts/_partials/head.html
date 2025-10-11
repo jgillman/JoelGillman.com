@@ -8,3 +8,9 @@
 {{- with .OutputFormats.Get "rss" -}}
   {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
 {{- end -}}
+<style>
+.preload * {
+  transition: none !important;
+  animation-duration: 0.001s !important;
+}
+</style>

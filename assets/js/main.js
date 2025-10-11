@@ -1,3 +1,7 @@
+window.addEventListener("load", () => {
+  document.body.classList.remove("preload");
+});
+
 const btn = document.querySelector("#theme-toggle-btn");
 const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
 const currentTheme = localStorage.getItem("theme");

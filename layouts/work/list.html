@@ -3,12 +3,12 @@
     {{ .Content }}
     <div class="project-list">
         <ul>
-            {{- range .Pages }}
+            {{ range .Pages }}
             <li>
                 <a href="{{ .RelPermalink }}">
-                    {{- with $image := .Resources.GetMatch "thumb.*" }}
+                    {{ with $image := .Resources.GetMatch "thumb.*" }}
                     <img class="thumb" src="{{ .RelPermalink }}" width="140" height="140">
-                    {{- end }}
+                    {{ end }}
                     <div>
                         <p class="project-title">{{ .LinkTitle }}</p>
                         <p class="project-owner">
@@ -19,7 +19,7 @@
                     </div>
                 </a>
             </li>
-            {{- end }}
+            {{ end }}
         </ul>
     </div>
     <div class="terminal-nav">

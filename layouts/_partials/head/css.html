@@ -1,15 +1,15 @@
-{{- with slice
+{{ with slice
   (resources.Get "css/main.css")
   (resources.Get "css/syntax.css")
--}}
-  {{- if hugo.IsDevelopment -}}
-    {{- range . -}}
-<link rel="stylesheet" href="{{ .RelPermalink }}">
-    {{- end -}}
-  {{- else -}}
-    {{- with . | resources.Concat "css/bundle.css" | minify | fingerprint -}}
-    <link rel="preload" href="{{ .RelPermalink }}" as="style" />
-<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
-    {{- end -}}
-  {{- end -}}
-{{- end -}}
+}}
+  {{ if hugo.IsDevelopment }}
+    {{ range . }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{ end }}
+  {{ else }}
+    {{ with . | resources.Concat "css/bundle.css" | minify | fingerprint }}
+      <link rel="preload" href="{{ .RelPermalink }}" as="style" />
+      <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+    {{ end }}
+  {{ end }}
+{{ end }}

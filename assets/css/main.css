@@ -352,6 +352,10 @@ body > header {
   justify-self: right;
 }
 
+.posts-link-prev {
+  justify-self: left;
+}
+
 /* Project list */
 .project-list ul {
   list-style: none;

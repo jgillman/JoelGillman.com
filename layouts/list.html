@@ -1,17 +1,17 @@
 {{ define "main" }}
-    <h1>{{ .Title }}</h1>
-    {{ .Content }}
-    <div class="time-list">
-        <ul>
-            {{ range .Pages }}
-            <li>
-                <span>{{- partial "date" .Date -}}</span>
-                <div><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></div>
-            </li>
-            {{ end }}
-        </ul>
-    </div>
-    <div class="terminal-nav">
-      {{ partial "menu.html" (dict "menuID" "main" "page" . "includeBack" true) }}
-    </div>
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  <div class="time-list">
+    <ul>
+      {{ range .Pages }}
+      <li>
+        <span>{{- partial "date" .Date -}}</span>
+        <div><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></div>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  <div class="terminal-nav">
+    {{ partial "menu.html" (dict "menuID" "main" "page" . "includeBack" true) }}
+  </div>
 {{ end }}

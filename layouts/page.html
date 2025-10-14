@@ -5,7 +5,7 @@
 
   {{ if not .IsHome }}
     <div class="terminal-nav">
-    {{ partial "menu.html" (dict "menuID" "main" "page" . "includeBack" true) }}
+      {{ partial "menu.html" (dict "menuID" "main" "page" . "includeBack" true) }}
     </div>
   {{ end }}
 {{ end }}

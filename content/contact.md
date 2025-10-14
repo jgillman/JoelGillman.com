@@ -16,6 +16,8 @@ title: Contact
 
 **github:** [jgillman](https://github.com/jgillman)
 
+**linkedin:** [joelgillman](https://www.linkedin.com/in/joelgillman)
+
 **bandcamp:** [jgillman](https://bandcamp.com/jgillman)
 
 **reddit:** [&lt;redacted&gt;](https://encrypted.google.com/search?q=forever+alone&tbm=isch)
@@ -27,8 +29,6 @@ title: Contact
 **steam:** [jgillman](https://steamcommunity.com/id/jgillman/)
 
 **playstation:** [ArtGoesHere](https://us.playstation.com/playstation/psn/visit/profiles/ArtGoesHere)
-
-**linkedin:** [joelgillman](https://www.linkedin.com/in/joelgillman)
 
 **vimeo:** [/jgillman](https://vimeo.com/jgillman)
 

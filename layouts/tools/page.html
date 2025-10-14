@@ -15,9 +15,6 @@
   {{ end }}
 
   <div class="terminal-nav">
-    {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
-    <div class="back-nav">
-      <a href="../" class="back-link">../</a>
-    </div>
+    {{ partial "menu.html" (dict "menuID" "main" "page" . "includeBack" true) }}
   </div>
 {{ end }}

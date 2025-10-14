@@ -3,16 +3,23 @@ Renders a menu for the given menu ID.
 
 @context {page} page The current page.
 @context {string} menuID The menu ID.
+@context {boolean} if the back link should be included
 
 @example: {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
 */}}
 
 {{- $page := .page }}
 {{- $menuID := .menuID }}
+{{- $includeBack := .includeBack }}
 
 {{- with index site.Menus $menuID }}
   <nav>
     <ul>
+      {{- if $includeBack }}
+        <li>
+          <a href="../" title="Back">../<span class="sr-only">Go back</span></a>
+        </li>
+      {{- end }}
       {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
     </ul>
   </nav>

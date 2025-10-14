@@ -13,19 +13,17 @@
     {{ end }}
   </ul>
 {{ end }}
-  <div class="terminal-nav">
-    <div class="posts-nav">
-			{{ $pages := .CurrentSection.Pages }}
-			{{ with $pages.Prev . }}
-				<a href="{{ .RelPermalink }}" class="posts-link-prev">← Previous Post</a>
-			{{ end }}
+  <div class="posts-nav">
+    {{ $pages := .CurrentSection.Pages }}
+    {{ with $pages.Prev . }}
+      <a href="{{ .RelPermalink }}" class="posts-link-prev">← Previous Post</a>
+    {{ end }}
 
-			{{ with $pages.Next . }}
-				<a href="{{ .RelPermalink }}" class="posts-link-next">Next Post →</a>
-			{{ end }}
-    </div>
-    <div class="back-nav">
-      <a href="../" title="back" class="back-link">../</a>
-    </div>
+    {{ with $pages.Next . }}
+      <a href="{{ .RelPermalink }}" class="posts-link-next">Next Post →</a>
+    {{ end }}
+  </div>
+  <div class="terminal-nav">
+    {{ partial "menu.html" (dict "menuID" "main" "page" . "includeBack" true) }}
   </div>
 {{ end }}

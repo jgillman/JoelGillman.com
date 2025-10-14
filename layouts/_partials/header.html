@@ -45,7 +45,7 @@
     {{- template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 ) -}}
   {{- end -}}
   <li{{ if eq .p1 .p2 }} class="current"{{ end }}>
-    <a href="{{ .p1.RelPermalink }}">
+    <a href="{{ .p1.RelPermalink }}" rel="me">
       {{- if and (eq .p1.Section "posts") (not .p1.IsSection) -}}
         {{ .p1.Date.Format "2006-01-02" }} <span class="day">{{ .p1.Date.Format "(a Monday)" }}</span>
       {{- else -}}

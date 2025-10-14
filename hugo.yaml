@@ -9,13 +9,13 @@ params:
 menu:
   main:
     - name: 'About'
-      url: '/about/'
+      pageRef: '/about'
     - name: 'Work'
-      url: '/work/'
+      pageRef: '/work'
     - name: 'Tools'
-      url: '/tools/'
+      pageRef: '/tools'
     - name: 'Posts'
-      url: '/posts/'
+      pageRef: '/posts'
 
 security:
   enableInlineShortcodes: true

@@ -1,7 +1,6 @@
 # Configure Cloudflare Worker
 
 name = "personal-website"
-main = "./worker.js"
 compatibility_date = "2025-07-31"
 
 [build]

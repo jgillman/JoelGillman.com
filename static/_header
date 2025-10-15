@@ -1,0 +1,8 @@
+# Headers for Cloudflare worker
+# https://developers.cloudflare.com/workers/static-assets/headers/
+
+/css/*
+  Cache-Control: public, max-age=31556952, immutable
+
+/js/*
+  Cache-Control: public, max-age=31556952, immutable

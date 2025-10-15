@@ -26,6 +26,19 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    extensions:
+      extras:
+        delete:
+          enable: true
+        insert:
+          enable: true
+        mark:
+          enable: true
+        subscript:
+          enable: true
+        superscript:
+          enable: true
+      strikethrough: false
   highlight:
     noClasses: false
     style: dracula

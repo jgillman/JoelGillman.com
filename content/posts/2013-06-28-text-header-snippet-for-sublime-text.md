@@ -3,10 +3,9 @@ date: "2013-06-28"
 tags:
 - shortcut
 - snippet
-- sublime
 - sublime text
 - text
-- webdev
+- web-development
 title: Text header snippet for Sublime Text
 ---
 

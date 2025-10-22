@@ -2,7 +2,7 @@
 date: "2014-01-14"
 tags:
 - proxy
-- webdev
+- web-development
 - debug
 - http
 title: Use mitmproxy to Unminify Your Requests

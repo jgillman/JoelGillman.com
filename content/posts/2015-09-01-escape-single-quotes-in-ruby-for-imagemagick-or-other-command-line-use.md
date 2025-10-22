@@ -1,8 +1,7 @@
 ---
 date: "2015-09-01"
 tags:
-- ruby
-- rails
+- ruby on rails
 - command line
 - imagemagick
 title: Escape single quotes in Ruby for ImageMagick or other command line use

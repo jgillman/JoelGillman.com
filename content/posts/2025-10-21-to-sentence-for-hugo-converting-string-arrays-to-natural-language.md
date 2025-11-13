@@ -54,10 +54,9 @@ That's it. About 17 lines of code, including comments.
 
 This Hugo partial does two main things:
 
-**1. Filter out falsey values** (lines 4-9)
+1. **Filter out falsey values** (lines 4-9)
 Using Hugo's `with` statement inside a `range` loop, we rebuild the array excluding any empty strings or nil values. The `with` block only executes if the value is truthy.
-
-**2. Join with appropriate delimiters** (lines 11-16)
+2. **Join with appropriate delimiters** (lines 11-16)
 Hugo's `delimit` function is the secret sauce here. It takes three arguments: the array, the separator, and an optional last separator.
 
 For arrays with more than two items, we use `delimit $s ", " ", and "` which puts commas between items and ", and " before the last one. For two or fewer items, we simply use " and " as the separator.

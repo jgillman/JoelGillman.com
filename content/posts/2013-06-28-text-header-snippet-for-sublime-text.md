@@ -6,6 +6,7 @@ tags:
 - snippet
 - sublime text
 title: Text header snippet for Sublime Text
+description: "Create a powerful Sublime Text snippet for generating ASCII-style headers with automatic border sizing based on your text content."
 ---
 
 I was just playing around with snippets in Sublime Text for the first time (despite being a long time Sublime user). This was just for fun but it's useful and shows off how powerful the snippets can be.

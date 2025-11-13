@@ -7,6 +7,7 @@ tags:
 - tutorial
 - web development
 title: '&nbsp; What Non-Breaking Spaces Are For'
+description: "Learn the proper use of non-breaking spaces in HTML for preventing awkward line breaks and improving typography in responsive web design."
 ---
 
 

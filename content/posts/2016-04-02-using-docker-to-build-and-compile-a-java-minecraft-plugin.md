@@ -8,6 +8,7 @@ tags:
 - minecraft
 - tutorial
 title: Using Docker to build and compile a Java Minecraft plugin
+description: "Learn how to use Docker to build and compile Java Minecraft plugins with Gradle, simplifying your development workflow."
 ---
 
 ## The Problem

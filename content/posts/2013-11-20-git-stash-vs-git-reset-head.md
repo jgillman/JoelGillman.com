@@ -8,6 +8,7 @@ tags:
 - productivity
 - snippet
 title: Git stash vs Git reset HEAD^
+description: "Alternative to git stash: commit work-in-progress with 'wip' prefix and use a custom bash prompt to track unfinished commits."
 ---
 
 Git stash is a pretty sweet feature, but I don't always remember that I've

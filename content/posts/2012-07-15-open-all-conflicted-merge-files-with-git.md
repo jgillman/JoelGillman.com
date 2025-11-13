@@ -10,6 +10,7 @@ tags:
 - tutorial
 - vim
 title: Open all conflicted merge files with Git
+description: "Bash and awk command snippet to automatically open all conflicted merge files in Vim when resolving Git merge conflicts."
 ---
 
 When merging branches something I often want to open all of the conflicted

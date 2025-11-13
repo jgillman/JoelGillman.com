@@ -6,6 +6,7 @@ tags:
 - markup
 - web development
 title: When should I use the <article> HTML5 element?
+description: "Learn when and how to properly use the HTML5 article element for semantic markup and better content structure in web development."
 ---
 
 I was recently asked what the appropriate use of the `<article>` element is.

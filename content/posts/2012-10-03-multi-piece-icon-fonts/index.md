@@ -7,6 +7,7 @@ tags:
 - tutorial
 - web development
 title: Multi-piece icon fonts
+description: "Build complex multi-layered icons using CSS font stacking and pseudo-elements for scalable, high-resolution vector graphics on the web."
 ---
 
 ## Background:

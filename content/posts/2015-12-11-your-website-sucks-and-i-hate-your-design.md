@@ -4,6 +4,7 @@ tags:
 - feedback
 - web development
 title: Your website sucks and I hate your design!
+description: "How to respond professionally to negative customer feedback and turn hostile complaints into productive conversations about user experience."
 ---
 
 From time to time my company gets emails that go something like this:

@@ -5,6 +5,7 @@ tags:
 - productivity
 - tutorial
 title: Make Small Commits
+description: "Learn why making small, focused git commits improves code review, debugging, and version control workflows for better productivity."
 ---
 
 As a general rule of thumb, when you write code you want to keep it modular,

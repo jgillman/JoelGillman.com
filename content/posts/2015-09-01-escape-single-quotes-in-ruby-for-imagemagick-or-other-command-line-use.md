@@ -7,6 +7,7 @@ tags:
 - ruby on rails
 - snippet
 title: Escape single quotes in Ruby for ImageMagick or other command line use
+description: "Quick Ruby snippet using regex to properly escape single quotes when passing user input to ImageMagick or other command line tools."
 ---
 
 Impatient? [Skip to the answer.](#answer)

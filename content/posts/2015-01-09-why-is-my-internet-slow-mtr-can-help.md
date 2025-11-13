@@ -8,6 +8,7 @@ tags:
 - troubleshooting
 - tutorial
 title: Why is my internet slow? MTR can help
+description: "Learn how to use MTR (My Traceroute) to diagnose network slowdowns and identify where internet connectivity issues are occurring."
 ---
 
 Sometimes I'm trying to load a site up in my browser and it suddenly gets

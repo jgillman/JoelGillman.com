@@ -7,6 +7,7 @@ tags:
 - snippet
 - vim
 title: Convert CSS or Scss to Sass in Vim
+description: "Quick Vim regex snippet to automatically convert CSS or SCSS syntax to clean Sass format, removing braces and semicolons."
 ---
 
 When I copy/paste some CSS or Scss into my .sass using projects it's annoying

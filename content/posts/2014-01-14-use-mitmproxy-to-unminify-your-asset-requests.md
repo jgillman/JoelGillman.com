@@ -9,6 +9,7 @@ tags:
 - tutorial
 - web development
 title: Use mitmproxy to Unminify Your Requests
+description: "Debug production websites by using mitmproxy to intercept and unminify CSS and JavaScript assets on the fly for easier troubleshooting."
 ---
 
 Sometimes, when hunting bugs in production, I don't want all of the minified

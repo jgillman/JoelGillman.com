@@ -7,6 +7,7 @@ tags:
 - ruby on rails
 - tutorial
 title: Create Apple Push Notification certificates for Heroku with a .pem extension
+description: "Step-by-step guide to generating Apple Push Notification certificates in .pem format for Ruby on Rails apps deployed on Heroku."
 ---
 
 There's a lot of info out there and a lot of tutorials on how to generate Apple

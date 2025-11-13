@@ -5,7 +5,7 @@ tags:
 - snippet
 - sublime text
 - text
-- web-development
+- web development
 title: Text header snippet for Sublime Text
 ---
 

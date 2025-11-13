@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+# Convert a page to a section folder
+# Usage: convert-page-to-section path/to/page.md
+#
+# content/posts/my-post.md
+# Becomes:
+# content/posts/my-post/index.md
+
+set -e
+
+if [ $# -ne 1 ]; then
+    echo "Usage: $0 \"path/to/page.md\""
+    exit 1
+fi
+
+input_file="$1"
+input_basename=$(basename -s ".md" "${input_file}")
+input_dir_path=$(dirname "${input_file}")
+new_dir_path="${input_dir_path}/${input_basename}"
+
+# Create the new directory with the correct name
+mkdir "$new_dir_path"
+
+# Move the post file into the new directory with it's new name
+mv "$input_file" "${new_dir_path}/index.md"

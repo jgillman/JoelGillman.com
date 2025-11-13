@@ -7,16 +7,18 @@ tags:
 - templates
 - tutorial
 - web-development
+- snippet
 title: "to_sentence for Hugo: Converting String Arrays to Natural Language"
+description: "Learn how to build a reusable Hugo partial that converts string arrays into grammatically correct sentences with proper Oxford comma formatting, inspired by Rails' to_sentence method."
 ---
 
-When rebuilding my website with Hugo, I ran into a common problem: I had arrays of strings (like tags or clients) that I wanted to display as natural-sounding sentences. You know, the kind where `["apples", "oranges", "bananas"]` becomes "apples, oranges, and bananas" with proper comma placement and an "and" before the last item.
+When rebuilding my website with Hugo, I ran into a common problem: I had arrays of strings (like tags or clients) that I wanted to display as natural-sounding sentences. For example, `["apples", "oranges", "bananas"]` should become "apples, oranges, and bananas" with proper comma placement and an "and" before the last item.
 
-Coming from Ruby on Rails, where `to_sentence` is built right into the framework, I initially expected this to be more complicated in Go templates. But Hugo's template functions made it surprisingly elegant. Here's how I built a reusable Hugo partial to join string arrays with proper grammar—Oxford comma included.
+Coming from Ruby on Rails, where `to_sentence` is built into the framework, I initially expected this to be more complicated in Go templates. But Hugo's template functions made it surprisingly elegant. Here's how I built a reusable Hugo partial to join string arrays with proper grammar—Oxford comma included.
 
 ## The Problem
 
-I needed a way to concatenate and join arrays of strings into readable sentences with these rules:
+I needed to join arrays of strings into readable sentences with these rules:
 - Single item: just the item ("apples")
 - Two items: join with "and" ("apples and oranges")
 - Three or more: use commas with an Oxford comma before "and" ("apples, oranges, and bananas")
@@ -54,7 +56,7 @@ That's it. About 17 lines of code, including comments.
 
 This Hugo partial does two main things:
 
-1. **Filter out falsey values** (lines 4-9)
+1. **Filter out empty strings and nil values** (lines 4-9)
 Using Hugo's `with` statement inside a `range` loop, we rebuild the array excluding any empty strings or nil values. The `with` block only executes if the value is truthy.
 2. **Join with appropriate delimiters** (lines 11-16)
 Hugo's `delimit` function is the secret sauce here. It takes three arguments: the array, the separator, and an optional last separator.
@@ -65,13 +67,13 @@ For arrays with more than two items, we use `delimit $s ", " ", and "` which put
 
 To use this partial in your templates, just pass it an array:
 
-```go
+```go-html-template
 {{ partial "to_sentence.html" .Params.tags }}
 {{ partial "to_sentence.html" (slice "one" "two" "three") }}
 ```
 
-## Why I Like This
+## Conclusion
 
-As someone with basically no Go experience, I was pleasantly surprised by how concise this turned out. The `delimit` function doing the heavy lifting for the last separator is particularly elegant—no need for manual index tracking or special-casing the final element.
+As a Go newcomer, I was pleasantly surprised by how concise this turned out. The `delimit` function doing the heavy lifting for the last separator is particularly elegant—no need for manual index tracking or special-casing the final element.
 
 Plus, that Oxford comma comment is staying. Some things are non-negotiable.

@@ -2,6 +2,8 @@
 date: "2014-01-10"
 tags:
 - git
+- productivity
+- tutorial
 title: Make Small Commits
 ---
 

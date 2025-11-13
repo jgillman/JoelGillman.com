@@ -2,7 +2,10 @@
 date: "2015-09-14"
 tags:
 - apple
+- command line
 - ios
+- ruby on rails
+- tutorial
 title: Create Apple Push Notification certificates for Heroku with a .pem extension
 ---
 

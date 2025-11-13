@@ -3,6 +3,8 @@ date: "2015-07-17"
 tags:
 - html
 - html5
+- markup
+- web development
 title: When should I use the <article> HTML5 element?
 ---
 

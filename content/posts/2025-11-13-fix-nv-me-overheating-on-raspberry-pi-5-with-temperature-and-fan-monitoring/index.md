@@ -9,7 +9,9 @@ tags:
 - nvme
 - raspberry pi
 - raspberry pi 5
+- scripting
 - troubleshooting
+- tutorial
 title: Fix NVMe Overheating on Raspberry Pi 5 with Temperature and Fan Monitoring
 description: "Fix Raspberry Pi 5 NVMe overheating issues by configuring fan control and adding temperature monitoring to Home Assistant. Includes complete configuration and bash script."
 ---

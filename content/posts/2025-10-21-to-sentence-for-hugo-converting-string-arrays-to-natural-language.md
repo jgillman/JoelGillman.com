@@ -3,11 +3,10 @@ date: "2025-10-21"
 tags:
 - go
 - hugo
-- ruby on rails
+- snippet
 - templates
 - tutorial
 - web development
-- snippet
 title: "to_sentence for Hugo: Converting String Arrays to Natural Language"
 description: "Learn how to build a reusable Hugo partial that converts string arrays into grammatically correct sentences with proper Oxford comma formatting, inspired by Rails' to_sentence method."
 ---

@@ -4,6 +4,8 @@ tags:
 - css
 - fontface
 - icon
+- tutorial
+- web development
 title: Multi-piece icon fonts
 ---
 

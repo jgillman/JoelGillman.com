@@ -1,9 +1,13 @@
 ---
 date: "2012-07-15"
 tags:
+- awk
+- command line
 - conflict
 - git
 - merge
+- snippet
+- tutorial
 - vim
 title: Open all conflicted merge files with Git
 ---

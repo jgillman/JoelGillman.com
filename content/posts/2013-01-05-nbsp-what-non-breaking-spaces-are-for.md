@@ -2,8 +2,10 @@
 date: "2013-01-05"
 tags:
 - html
-- responsive
 - markup
+- responsive
+- tutorial
+- web development
 title: '&nbsp; What Non-Breaking Spaces Are For'
 ---
 

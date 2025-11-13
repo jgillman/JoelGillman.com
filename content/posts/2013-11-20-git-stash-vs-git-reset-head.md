@@ -1,9 +1,12 @@
 ---
 date: "2013-11-20"
 tags:
-- git
-- command line
 - awk
+- bash
+- command line
+- git
+- productivity
+- snippet
 title: Git stash vs Git reset HEAD^
 ---
 

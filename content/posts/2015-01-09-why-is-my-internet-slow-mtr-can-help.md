@@ -1,8 +1,12 @@
 ---
 date: "2015-01-09"
 tags:
-- network
+- command line
 - mtr
+- network
+- tools
+- troubleshooting
+- tutorial
 title: Why is my internet slow? MTR can help
 ---
 

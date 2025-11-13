@@ -1,10 +1,13 @@
 ---
 date: "2014-01-14"
 tags:
-- proxy
-- web development
+- command line
 - debug
 - http
+- proxy
+- tools
+- tutorial
+- web development
 title: Use mitmproxy to Unminify Your Requests
 ---
 

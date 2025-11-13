@@ -1,11 +1,12 @@
 ---
 date: "2016-04-02"
 tags:
-- docker
 - command line
-- minecraft
-- java
+- docker
 - gradle
+- java
+- minecraft
+- tutorial
 title: Using Docker to build and compile a Java Minecraft plugin
 ---
 

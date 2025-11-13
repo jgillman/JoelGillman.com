@@ -1,11 +1,10 @@
 ---
 date: "2013-06-28"
 tags:
+- productivity
 - shortcut
 - snippet
 - sublime text
-- text
-- web development
 title: Text header snippet for Sublime Text
 ---
 

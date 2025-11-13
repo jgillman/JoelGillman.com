@@ -2,9 +2,10 @@
 date: "2013-11-20"
 tags:
 - css
-- sass
-- vim
 - regex
+- sass
+- snippet
+- vim
 title: Convert CSS or Scss to Sass in Vim
 ---
 

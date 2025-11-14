@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  <hr class="double">
+  <!-- <pre>{{ debug.Dump .Site.Taxonomies.tags }}</pre> -->
+  <div class="time-list">
+    <ul>
+    {{ range .Site.Taxonomies.tags }}
+    <li class="inline"><a href="{{ .Page.Permalink }}">{{ lower .Page.Title }}</a> <span class="text-muted">({{ .Count }})</span></li>
+    {{ end }}
+    </ul>
+  </div>
+  <div class="terminal-nav">
+    {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+    <div class="back-nav">
+    <a href="../" class="back-link">../</a>
+    </div>
+  </div>
+{{ end }}

@@ -8,5 +8,5 @@ There isn't a specific theme other than "things I feel compelled to write
 about." Also sometimes I stop posting for awhile, though I try to not make that
 a habit.
 
-I try to use [tags](/tags/) to categorize stuff if there's a particular thing
+I try to use [tags]( {{< ref "tags" >}} ) to categorize stuff if there's a particular thing
 you're interested in.

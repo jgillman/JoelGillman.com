@@ -1,18 +1,36 @@
 #!/usr/bin/env bash
 
 # Script to create a new Hugo post with date prefix
-# Usage: new-post "post title"
+# Usage: new-post [-e|--edit] "post title"
 
 set -e
 
-if [ $# -ne 1 ]; then
-    echo "Usage: $0 \"post title\""
+# Parse flags
+edit_after=false
+post_title=""
+
+while [[ $# -gt 0 ]]; do
+    case $1 in
+        -e|--edit)
+            edit_after=true
+            shift
+            ;;
+        *)
+            post_title="$1"
+            shift
+            ;;
+    esac
+done
+
+if [ -z "$post_title" ]; then
+    echo "Usage: $0 [-e|--edit] \"post title\""
     echo "Example: $0 \"my blog update\""
+    echo "Example: $0 -e \"my blog update\""
+    echo ""
+    echo "Options:"
+    echo "  -e, --edit    Open the new post in \$EDITOR after creation"
     exit 1
 fi
-
-# Get the post title from the argument
-post_title="$1"
 
 # Get current date in YYYY-MM-DD format
 current_date=$(date +%Y-%m-%d)
@@ -28,3 +46,14 @@ hugo new content "posts/${filename}"
 
 echo "✅ New post created successfully!"
 echo "📝 Edit your post: $filename"
+
+# Open in editor if flag was set
+if [ "$edit_after" = true ]; then
+    if [ -z "$EDITOR" ]; then
+        echo "⚠️  Warning: \$EDITOR environment variable is not set. Cannot open editor."
+        exit 1
+    fi
+    filepath="content/posts/${filename}"
+    echo "🚀 Opening in \$EDITOR..."
+    exec "$EDITOR" "$filepath"
+fi

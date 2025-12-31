@@ -8,7 +8,6 @@
     {{ end }}
   {{ else }}
     {{ with . | resources.Concat "css/bundle.css" | minify | fingerprint }}
-      <link rel="preload" href="{{ .RelPermalink }}" as="style" />
       <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
     {{ end }}
   {{ end }}

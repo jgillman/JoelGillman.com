@@ -3,7 +3,10 @@
 <head>
   {{ partial "head.html" . }}
 </head>
-<body class="preload">
+<body>
+  {{ with resources.Get "js/darkmode.js" | minify }}
+    <script>{{ .Content | safeJS }}</script>
+  {{ end }}
   <header>
     {{ partial "header.html" . }}
   </header>

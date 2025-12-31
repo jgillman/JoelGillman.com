@@ -3,21 +3,7 @@ window.addEventListener("load", () => {
 });
 
 const btn = document.querySelector("#theme-toggle-btn");
-const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
-const currentTheme = localStorage.getItem("theme");
 
-// If no theme is saved and dark is preferred set and save that
-if (!currentTheme && prefersDarkScheme) {
-  localStorage.setItem("theme", "dark");
-  document.body.classList.add("dark-mode");
-}
-
-if (currentTheme == "dark") {
-  document.body.classList.toggle("dark-mode");
-} else if (currentTheme == "light") {
-  document.body.classList.toggle("light-mode");
-}
- 
 function handleThemeToggleTriggerEvent(event) {
   // Check to see if space or enter were pressed for a11y
   // "Spacebar" for IE11 support

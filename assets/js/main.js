@@ -1,7 +1,3 @@
-window.addEventListener("load", () => {
-  document.body.classList.remove("preload");
-});
-
 const btn = document.querySelector("#theme-toggle-btn");
 
 function handleThemeToggleTriggerEvent(event) {

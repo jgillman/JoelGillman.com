@@ -9,11 +9,10 @@
       <script src="{{ .RelPermalink }}" defer></script>
     {{ else }}
       {{ with . | fingerprint }}
-        <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
+        <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
       {{ end }}
     {{ end }}
   {{ end }}
-  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
   {{ if not hugo.IsDevelopment }}
     <script data-goatcounter="https://joel.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   {{ end }}

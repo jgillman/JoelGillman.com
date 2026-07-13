@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "JoelGillman_com",
+  "project_id": "06e9a8e5-c9be-4588-822f-88b51533087a"
+}

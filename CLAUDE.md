@@ -34,12 +34,15 @@ The local development server is reachable locally at http://127.0.0.1:1313
 ## Architecture and Structure
 
 ### Site Configuration
-- Main config: `hugo.yaml` - contains site metadata, theme selection, menu configuration
+- Main config: `hugo.yaml` - contains site metadata, menu configuration
 - Content structure follows Hugo conventions with `content/`, `static/`, `layouts/`, `assets/`
 - Blog posts are in `content/posts/`
 - Professional work is in `content/work/`
+- Art portfolio is in `content/art/`
+- Side projects are in `content/projects/`
 
-### Theme Architecture (Shibui)
+### Theme Architecture (Shibui-derived)
+- Originally based on the [shibui theme](https://github.com/ntk148v/shibui), but now fully inlined and customized directly in this repo's `layouts/` and `assets/` — the `themes/` directory is empty and there is no live theme dependency in `hugo.yaml`.
 - **Design Philosophy**: Minimalist following Japanese Shibui aesthetics
 - **Minimal JavaScript**: CSS solutions for functionality where possible
 - **Color Scheme**: Warm, paper-like palette with CSS variables for customization
@@ -49,7 +52,7 @@ The local development server is reachable locally at http://127.0.0.1:1313
 ### Key Directories
 - `content/` - Markdown content files
 - `static/` - Static assets served as-is
-- `layouts/` - Custom layout overrides (if needed)
+- `layouts/` - Custom layouts (this repo's fork of the Shibui theme, not overrides of an external theme)
 - `assets/` - Site-specific CSS/JS assets for processing
 
 ### Theme Customization
@@ -59,12 +62,13 @@ The local development server is reachable locally at http://127.0.0.1:1313
 
 ## Site Configuration Details
 
-Current menu structure:
+Current menu structure (from `hugo.yaml`):
 - About (`/about/`)
-- Résumé (`/resume/`)
-- Contact (`/contact/`)
+- Work (`/work/`)
 - Tools (`/tools/`)
 - Posts (`/posts/`)
+
+`/resume/` and `/contact/` exist as pages but are deliberately left out of the main nav menu — they're linked from the homepage copy (`content/_index.md`) instead, not surfaced site-wide.
 
 Author: Joel Gillman (joel@joelgillman.com)
 Base URL: https://www.joelgillman.com/
@@ -116,7 +120,7 @@ Deployment is handled by pushing to the remote `main` branch with git (git push)
 Cloudflare monitors the `main` branch for new commits and automatically builds and deploys to production with Wrangler.
 
 
-<!-- BEGIN BEADS INTEGRATION v:1 profile:minimal hash:6cd5cc61 -->
+<!-- BEGIN BEADS INTEGRATION v:1 profile:minimal hash:970c3bf2 -->
 ## Beads Issue Tracker
 
 This project uses **bd (beads)** for issue tracking. Run `bd prime` to see full workflow context and commands.
@@ -160,6 +164,7 @@ This protocol applies when ending a Beads implementation workflow. It is subordi
 
    # Team-maintainer opt-in only, unless current instructions forbid it:
    git pull --rebase
+   bd dolt push
    git push
    git status
    ```

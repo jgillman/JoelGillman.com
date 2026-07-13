@@ -19,6 +19,7 @@ menu:
 
 security:
   enableInlineShortcodes: true
+  allowContent: ['.*']
 
 enableEmoji: true
 

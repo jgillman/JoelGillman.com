@@ -1,0 +1,59 @@
+#!/usr/bin/env bash
+
+# Script to create a new Hugo note with date prefix
+# Usage: new-note [-e|--edit] "short slug or thought"
+
+set -e
+
+# Parse flags
+edit_after=false
+note_title=""
+
+while [[ $# -gt 0 ]]; do
+    case $1 in
+        -e|--edit)
+            edit_after=true
+            shift
+            ;;
+        *)
+            note_title="$1"
+            shift
+            ;;
+    esac
+done
+
+if [ -z "$note_title" ]; then
+    echo "Usage: $0 [-e|--edit] \"short slug or thought\""
+    echo "Example: $0 \"quick thought about rust\""
+    echo "Example: $0 -e \"quick thought about rust\""
+    echo ""
+    echo "Options:"
+    echo "  -e, --edit    Open the new note in \$EDITOR after creation"
+    exit 1
+fi
+
+# Get current date in YYYY-MM-DD format
+current_date=$(date +%Y-%m-%d)
+
+# Convert title to slug format (lowercase, replace spaces with hyphens, remove special chars)
+slug=$(echo "$note_title" | tr '[:upper:]' '[:lower:]' | tr -s ' ' | tr ' ' '-' | sed 's/[^a-z0-9-]//g' | sed 's/^-\+\|-\+$//g')
+
+# Create filename with date prefix
+filename="${current_date}-${slug}.md"
+
+# Run hugo new content command
+hugo new content "notes/${filename}"
+
+echo "✅ New note created successfully!"
+echo "📝 Edit your note: $filename"
+
+# Open in editor if flag was set
+if [ "$edit_after" = true ]; then
+    if [ -z "$EDITOR" ]; then
+        echo "⚠️  Warning: \$EDITOR environment variable is not set. Cannot open editor."
+        exit 1
+    fi
+    filepath="content/notes/${filename}"
+    echo "🚀 Opening in \$EDITOR..."
+    exec "$EDITOR" "$filepath"
+fi

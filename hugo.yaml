@@ -16,6 +16,8 @@ menu:
       pageRef: '/tools'
     - name: 'Posts'
       pageRef: '/posts'
+    - name: 'Notes'
+      pageRef: '/notes'
 
 security:
   enableInlineShortcodes: true
@@ -47,6 +49,7 @@ markup:
 
 permalinks:
   posts: /posts/:year-:month-:day-:slug/
+  notes: /notes/:contentbasename/
 
 taxonomies:
   tag: tags

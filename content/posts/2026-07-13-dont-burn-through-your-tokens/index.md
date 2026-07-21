@@ -28,3 +28,10 @@ It handles the vast majority of work (writing, analysis, coding, brainstorming) 
 **Hot tip:** you can always upgrade mid-conversation without starting over.
 
 *Model names and relative costs current as of mid-2026.*
+
+## Download the guide
+
+Prefer a printable version? Grab the PDF:
+
+- [Download for screen](dont-burn-through-your-tokens.pdf)
+- [Download for print](dont-burn-through-your-tokens-print.pdf)

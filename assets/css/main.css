@@ -189,7 +189,7 @@ h1 {
 h2 {
   counter-increment: h2;
   counter-reset: h3;
-  font-size: calc( var(--font-size-base) + 0.2em )
+  font-size: calc( var(--font-size-base) + 0.2em );
 
   &::before {
     content: counter(h2) ". ";

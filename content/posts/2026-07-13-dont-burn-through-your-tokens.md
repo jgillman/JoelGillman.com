@@ -27,4 +27,4 @@ It handles the vast majority of work (writing, analysis, coding, brainstorming) 
 
 **Hot tip:** you can always upgrade mid-conversation without starting over.
 
-*Model names and relative costs current as of mid-2025.*
+*Model names and relative costs current as of mid-2026.*

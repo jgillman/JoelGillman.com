@@ -27,7 +27,7 @@ markup:
   goldmark:
     renderHooks:
       image:
-        enableDefault: true
+        useEmbedded: fallback
     renderer:
       unsafe: true
     extensions:

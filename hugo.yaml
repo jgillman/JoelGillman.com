@@ -25,6 +25,9 @@ enableEmoji: true
 
 markup:
   goldmark:
+    renderHooks:
+      image:
+        enableDefault: true
     renderer:
       unsafe: true
     extensions:
